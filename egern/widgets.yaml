@@ -4,11 +4,11 @@ author: "j1ang"
 
 scriptings:
   - generic:
-      name: "countdown"
+      name: "全能版倒计时"
       script_url: "https://raw.githubusercontent.com/11cdhq6yxt6/monitor_config/refs/heads/main/egern/countdown.js"
       timeout: 10
 
 widgets:
-  - name: "countdown"
+  - name: "全能版倒计时"
     env:
-      EVENTS: '[{"title":"元旦","date":"2027-01-01T00:00:00+08:00","icon":"sparkles","color1":"#6366F1","color2":"#8B5CF6"},{"title":"春节","date":"2027-01-25T00:00:00+08:00","icon":"party.popper","color1":"#F43F5E","color2":"#FB7185"},{"title":"劳动节","date":"2026-05-01T00:00:00+08:00","icon":"briefcase","color1":"#10B981","color2":"#34D399"},{"title":"国庆节","date":"2026-10-01T00:00:00+08:00","icon":"flag","color1":"#F59E0B","color2":"#FBBF24"}]'
+      EVENTS: '[{"title":"劳动节","date":"05-01","repeat":true,"icon":"briefcase","color1":"#10B981","color2":"#34D399"},{"title":"中秋节","date":"08-15","repeat":true,"lunar":true,"icon":"moon.stars","color1":"#8B5CF6","color2":"#A78BFA"},{"title":"国庆节","date":"10-01","repeat":true,"icon":"flag","color1":"#F59E0B","color2":"#FBBF24"},{"title":"元旦","date":"01-01","repeat":true,"icon":"sparkles","color1":"#6366F1","color2":"#8B5CF6"},{"title":"春节","date":"01-01","repeat":true,"lunar":true,"icon":"party.popper","color1":"#F43F5E","color2":"#FB7185"},{"title":"生日","date":"02-29","repeat":true,"lunar":true,"icon":"gift","color1":"#F43F5E","color2":"#FB7185"}]'
